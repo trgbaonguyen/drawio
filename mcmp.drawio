@@ -1,11 +1,175 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T04:19:27.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="p9cLew_iGgGvStSV8SqG" version="24.6.4" type="github">
-  <diagram name="Page-1" id="BXlaxNEzFySGoJUbMnih">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-07-03T08:08:28.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="F7o8M1_RknQZ4T7G3JLY" version="24.6.4" type="device">
+  <diagram name="Page-1" id="cZ4rK6fLQztGhP0jJ3VE">
+    <mxGraphModel dx="2705" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WsRzHVwyuxqkuC2Kiz5J-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-1" target="VUaWataVF8Sk-pqxbcqI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-1" value="MCMP_DL_STATE_INITIAL (0)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-2" target="VUaWataVF8Sk-pqxbcqI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-2" value="MCMP_DL_STATE_IDLE (1)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="193" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-3" target="VUaWataVF8Sk-pqxbcqI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-3" value="MCMP_DL_STATE_TRIGGER_RESPONSE_TRANSMISSION (14)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="509" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-4" target="VUaWataVF8Sk-pqxbcqI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-4" value="MCMP_DL_STATE_TRIGGER_READY_TRANSMISSION (2)&lt;div&gt;&lt;b&gt;Send BF FF to Micom&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="256" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-21" value="Transmision completed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-5" target="VUaWataVF8Sk-pqxbcqI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-5" value="MCMP_DL_STATE_WAIT_READY_TRANSMISSION (3)&lt;br&gt;&lt;b&gt;Query state of transmission&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="319" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-6" target="VUaWataVF8Sk-pqxbcqI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-6" value="MCMP_DL_STATE_TRIGGER_SYNC_READY_RECEPTION (4)&lt;br&gt;&lt;b&gt;Wait for response from Micom, read data from RX buffer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="407" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-10" target="VUaWataVF8Sk-pqxbcqI-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="560" />
+              <mxPoint x="350" y="560" />
+              <mxPoint x="350" y="236" />
+              <mxPoint x="640" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-44" value="Reception completed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUaWataVF8Sk-pqxbcqI-23">
+          <mxGeometry x="-0.1407" y="3" relative="1" as="geometry">
+            <mxPoint x="-217" y="99" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-10" value="MCMP_DL_STATE_WAIT_SYNC_READY_RECEPTION (5)&lt;br&gt;&lt;b&gt;Query state of reception&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="470" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-11" target="VUaWataVF8Sk-pqxbcqI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-11" value="MCMP_DL_STATE_TRIGGER_DATA_TRANSMISSION (6)&lt;div&gt;&lt;b&gt;Send data to Micom&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="256" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-12" target="VUaWataVF8Sk-pqxbcqI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-48" value="Transmision completed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUaWataVF8Sk-pqxbcqI-25">
+          <mxGeometry x="-0.2766" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-12" value="MCMP_DL_STATE_WAIT_DATA_TRANSMISSION (7)&lt;br&gt;&lt;b&gt;Query state of transmission&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-13" target="VUaWataVF8Sk-pqxbcqI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-13" value="MCMP_DL_STATE_TRIGGER_RESPONSE_RECEPTION (8)&lt;div&gt;&lt;b&gt;Wait for response from Micom, read data from RX buffer&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="407" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-14" target="VUaWataVF8Sk-pqxbcqI-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-14" value="MCMP_DL_STATE_WAIT_RESPONSE_RECEPTION (9)&lt;div&gt;&lt;b&gt;Query state of reception&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="470" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-15" target="VUaWataVF8Sk-pqxbcqI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-15" value="MCMP_DL_STATE_TRIGGER_DATA_RECEPTION (12)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="383" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-16" target="VUaWataVF8Sk-pqxbcqI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-16" value="MCMP_DL_STATE_WAIT_DATA_RECEPTION (13)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="446" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-17" target="VUaWataVF8Sk-pqxbcqI-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-17" value="MCMP_DL_STATE_WAIT_RESPONSE_TRANSMISSION (15)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="572" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-32" target="VUaWataVF8Sk-pqxbcqI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-32" value="MCMP_DL_STATE_TRIGGER_READY_TRANSMISSION (2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="256" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-33" target="VUaWataVF8Sk-pqxbcqI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-33" value="MCMP_DL_STATE_WAIT_READY_TRANSMISSION (3)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="319" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-34" value="Send next packet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="640" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-38" value="Transmission&amp;nbsp;&lt;div&gt;not complete&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0198" y="40" relative="1" as="geometry">
+            <mxPoint x="-50" y="350" as="sourcePoint" />
+            <mxPoint x="-50" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="350" />
+              <mxPoint x="-80" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-10" target="VUaWataVF8Sk-pqxbcqI-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="500" />
+              <mxPoint x="-80" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-43" value="Reception&amp;nbsp;&lt;div&gt;not complete&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUaWataVF8Sk-pqxbcqI-41">
+          <mxGeometry x="-0.0333" y="-3" relative="1" as="geometry">
+            <mxPoint x="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-12" target="VUaWataVF8Sk-pqxbcqI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="350" />
+              <mxPoint x="430" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-50" value="Transmission&amp;nbsp;&lt;div&gt;not complete&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUaWataVF8Sk-pqxbcqI-49">
+          <mxGeometry y="4" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="VUaWataVF8Sk-pqxbcqI-14" target="VUaWataVF8Sk-pqxbcqI-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="500" />
+              <mxPoint x="430" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VUaWataVF8Sk-pqxbcqI-52" value="Reception&amp;nbsp;&lt;div&gt;not complete&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VUaWataVF8Sk-pqxbcqI-51">
+          <mxGeometry x="-0.225" y="1" relative="1" as="geometry">
+            <mxPoint x="-39" y="-9" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
